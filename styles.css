@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(#FEFDF8, #8B7F6C);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 4px #454146;
+}
+
+#bff-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #454146;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #454146;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #454146;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+    
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 0px solid white;
+    border-radius: 10px;
+    background-image: url("images/green_gift.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/hell_yes.gif");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+}
+#gift-img-gf:hover {
+    background-image: url("images/happy_orange.gif");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+}
+#gift-img-accurate:hover {
+    background-image: url("images/genius.gif");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+    height:200px;
+}
+
+#gift-img-faithe:hover {
+    background-image: url("images/Faithe_hat.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/heart.gif");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid white;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 100px auto 20px;
+    font-size: 40pt;
+    line-height: 30px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
